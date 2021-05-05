@@ -37,7 +37,6 @@ reactprops.notifyOnReselect = {};
 reactprops.defaultSelectedKeys = {};
 reactprops.selectedKeys = {};
 reactprops.multiSelectDelimiter = {};
-reactprops.keytipProps = {};
 reactprops.disabled = {};
 reactprops.errorMessage = {};
 reactprops.required = {};

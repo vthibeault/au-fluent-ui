@@ -8,7 +8,6 @@ reactprops.caretDownButtonStyles = <any>{};
 reactprops.comboBoxOptionStyles = <any>{};
 reactprops.dropdownMaxWidth = <any>{};
 reactprops.errorMessage = <any>{};
-reactprops.keytipProps = <any>{};
 reactprops.onItemClick = onlyAureliaBound;
 reactprops.isButtonAriaHidden = <any>{};
 reactprops.onPendingValueChanged = onlyAureliaBound;
@@ -38,20 +37,19 @@ reactprops.onBlur = onlyAureliaBound;
 
 @inject(Element, TaskQueue)
 @customElement('du-combo-box')
-export class DuComboBox extends AuReactWrapper  implements IComboBoxProps {
+export class DuComboBox extends AuReactWrapper implements IComboBoxProps {
 
-  constructor(element, protected tq: TaskQueue) 
-  {
-    super(element, tq);
-    
-  }
+    constructor(element, protected tq: TaskQueue) {
+        super(element, tq);
 
-  hidden: boolean = false;
-  options: IComboBoxOption[];
+    }
 
-  attached() {
-    this.renderReact(ComboBox, this.createState(reactprops));
-  }
+    hidden: boolean = false;
+    options: IComboBoxOption[];
+
+    attached() {
+        this.renderReact(ComboBox, this.createState(reactprops));
+    }
 }
 
 addPropertiesState(DuComboBox, reactprops);

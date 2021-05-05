@@ -27,7 +27,6 @@ import * as React from 'react';
 import * as ReactDom from 'react-dom';
 var reactprops = {};
 reactprops.className = {};
-reactprops.defaultSelectedIndex = {};
 reactprops.defaultSelectedKey = {};
 reactprops.getTabId = onlyAureliaBound;
 reactprops.headersOnly = {};

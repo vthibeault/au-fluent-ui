@@ -34,20 +34,18 @@ reactprops.ariaPositionInSet = {};
 reactprops.ariaSetSize = {};
 reactprops.checkmarkIconProps = {};
 reactprops.defaultChecked = {};
-reactprops.keytipProps = {};
 reactprops.disabled = {};
-reactprops.checked = {};
 reactprops.className = {};
 reactprops.label = {};
 reactprops.onChange = au_react_wrapper_1.onlyAureliaBound;
 reactprops.boxSide = {};
-reactprops.onClick = au_react_wrapper_1.onlyAureliaBound;
 reactprops.checked = {};
 var DuCheckbox = (function (_super) {
     __extends(DuCheckbox, _super);
     function DuCheckbox(element, tq) {
         var _this = _super.call(this, element, tq) || this;
         _this.tq = tq;
+        _this.checked = false;
         _this.hidden = false;
         return _this;
     }

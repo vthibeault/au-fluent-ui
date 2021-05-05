@@ -32,7 +32,6 @@ reactprops.caretDownButtonStyles = {};
 reactprops.comboBoxOptionStyles = {};
 reactprops.dropdownMaxWidth = {};
 reactprops.errorMessage = {};
-reactprops.keytipProps = {};
 reactprops.onItemClick = au_react_wrapper_1.onlyAureliaBound;
 reactprops.isButtonAriaHidden = {};
 reactprops.onPendingValueChanged = au_react_wrapper_1.onlyAureliaBound;

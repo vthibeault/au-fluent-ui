@@ -30,7 +30,6 @@ var React = require("react");
 var ReactDom = require("react-dom");
 var reactprops = {};
 reactprops.className = {};
-reactprops.defaultSelectedIndex = {};
 reactprops.defaultSelectedKey = {};
 reactprops.getTabId = au_react_wrapper_1.onlyAureliaBound;
 reactprops.headersOnly = {};

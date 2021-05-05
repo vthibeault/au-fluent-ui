@@ -35,7 +35,6 @@ reactprops.onChange = function (that, _event, newValue) {
     that['checked'] = newValue;
 };
 reactprops.className = {};
-reactprops.keytipProps = {};
 var DuToggle = (function (_super) {
     __extends(DuToggle, _super);
     function DuToggle(element, tq) {

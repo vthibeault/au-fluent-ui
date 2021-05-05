@@ -4,6 +4,7 @@ import { AuReactWrapper } from '@dunite/au-react-wrapper';
 export declare class DuCheckbox extends AuReactWrapper implements ICheckboxProps {
     protected tq: TaskQueue;
     constructor(element: any, tq: TaskQueue);
+    checked: boolean;
     hidden: boolean;
     attached(): void;
 }

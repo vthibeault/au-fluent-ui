@@ -15,7 +15,6 @@ reactprops.ariaSetSize = <any>{};
 reactprops.checkmarkIconProps = <any>{};
 reactprops.defaultChecked = <any>{};
 reactprops.disabled = <any>{};
-reactprops.checked = <any>{};
 reactprops.className = <any>{};
 reactprops.label = <any>{};
 reactprops.onChange = onlyAureliaBound;
@@ -24,19 +23,23 @@ reactprops.checked = <any>{};
 
 @inject(Element, TaskQueue)
 @customElement('du-checkbox')
-export class DuCheckbox extends AuReactWrapper  implements ICheckboxProps {
+export class DuCheckbox extends AuReactWrapper implements ICheckboxProps {
 
-  constructor(element, protected tq: TaskQueue) 
-  {
-    super(element, tq);
-    
-  }
 
-  hidden: boolean = false;
 
-  attached() {
-    this.renderReact(Checkbox, this.createState(reactprops));
-  }
+    constructor(element, protected tq: TaskQueue) {
+        super(element, tq);
+
+    }
+
+    checked: boolean = false;
+
+
+    hidden: boolean = false;
+
+    attached() {
+        this.renderReact(Checkbox, this.createState(reactprops));
+    }
 }
 
 addPropertiesState(DuCheckbox, reactprops);
