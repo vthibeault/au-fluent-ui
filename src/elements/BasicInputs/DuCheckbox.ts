@@ -14,14 +14,12 @@ reactprops.ariaPositionInSet = <any>{};
 reactprops.ariaSetSize = <any>{};
 reactprops.checkmarkIconProps = <any>{};
 reactprops.defaultChecked = <any>{};
-reactprops.keytipProps = <any>{};
 reactprops.disabled = <any>{};
 reactprops.checked = <any>{};
 reactprops.className = <any>{};
 reactprops.label = <any>{};
 reactprops.onChange = onlyAureliaBound;
 reactprops.boxSide = <any>{};
-reactprops.onClick = onlyAureliaBound;
 reactprops.checked = <any>{};
 
 @inject(Element, TaskQueue)
