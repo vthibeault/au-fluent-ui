@@ -132,7 +132,8 @@
     "@fluentui/foundation-legacy": "8.2.15",
     "@fluentui/font-icons-mdl2": "8.4.8",
     "@fluentui/react-focus": "8.8.0",
-    "@fluentui/theme": "2.6.12"
+    "@fluentui/theme": "2.6.12",
+    "@fluentui/react-file-type-icons": "8.7.4"
   },
   "peerDependencies": {
     "@types/react": "16.8.25",
