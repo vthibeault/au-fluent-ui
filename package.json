@@ -65,7 +65,8 @@
     "ts-jest": "^25.2.1",
     "tslint": "^6.0.0",
     "typescript": "^4.9.3",
-    "vinyl-fs": "^3.0.3"
+    "vinyl-fs": "^3.0.3",
+    "sass": "1.58.3"
   },
   "scripts": {
     "build": "au build-plugin",
