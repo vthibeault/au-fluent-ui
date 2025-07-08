@@ -12,6 +12,7 @@
     "experimentalDecorators": true,
     "sourceMap": true,
     "target": "es5",
+    "skipLibCheck": true,
     "lib": [
       "es2015",
       "dom"
