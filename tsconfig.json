@@ -19,6 +19,7 @@
     "moduleResolution": "node",
     "baseUrl": "src",
     "resolveJsonModule": true,
+    "skipLibCheck": true,
     "paths": {
       "resources": [
         ""
